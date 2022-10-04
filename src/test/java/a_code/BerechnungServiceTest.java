@@ -14,7 +14,9 @@ class BerechnungServiceTest {
 
         // Given
 
-        BerechnungService berechnungService = new BerechnungService();
+        Berechnung berechnung = new Berechnung();
+
+        BerechnungService berechnungService = new BerechnungService(berechnung);
 
         // When
 
