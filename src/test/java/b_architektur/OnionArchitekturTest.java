@@ -30,7 +30,7 @@ public class OnionArchitekturTest {
 
         ArchRule rule = noClasses()
                 .that().resideInAPackage("..domain..")
-                .should().dependOnClassesThat().resideInAnyPackage("jakarta..", "org.springframework..")
+                .should().dependOnClassesThat().resideInAnyPackage("javax..", "jakarta..", "org.springframework..")
                 .because("our domain core should be independent of frameworks");
 
         rule.check(analyzedClasses);
