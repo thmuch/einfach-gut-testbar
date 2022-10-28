@@ -2,10 +2,13 @@ package b_architektur.application;
 
 import b_architektur.domain.model.Email;
 import b_architektur.domain.service.ZaehlerRepository;
+import org.junit.jupiter.api.DisplayNameGeneration;
+import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class NeuesKundenkontoAnlegenUseCaseTest {
 
     @Test
