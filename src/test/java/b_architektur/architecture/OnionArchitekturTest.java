@@ -1,4 +1,4 @@
-package b_architektur;
+package b_architektur.architecture;
 
 import com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.junit.AnalyzeClasses;
