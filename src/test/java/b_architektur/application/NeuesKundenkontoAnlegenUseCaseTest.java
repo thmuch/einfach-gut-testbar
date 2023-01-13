@@ -30,5 +30,6 @@ class NeuesKundenkontoAnlegenUseCaseTest {
         // Then
 
         assertThat(kundeRepository.getFakeDb()).containsKey(email);
+        assertThat(kundeRepository.getFakeDb().get(email).getKundennummer()).isNotNull();
     }
 }

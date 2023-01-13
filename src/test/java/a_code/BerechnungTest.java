@@ -19,7 +19,7 @@ class BerechnungTest {
 
         Berechnung berechnung = new Berechnung();
 
-        LocalDate heute = LocalDate.of(2022, Month.OCTOBER, 6);
+        LocalDate heute = LocalDate.of(2023, Month.JANUARY, 12);
 
         // When
 
@@ -37,7 +37,7 @@ class BerechnungTest {
 
         Berechnung berechnung = new Berechnung();
 
-        LocalDate heute = LocalDate.of(2023, Month.JANUARY, 1);
+        LocalDate heute = LocalDate.of(2024, Month.JANUARY, 1);
 
         // When
 

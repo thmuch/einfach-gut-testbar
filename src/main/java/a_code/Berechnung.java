@@ -5,7 +5,7 @@ import java.time.Month;
 
 public class Berechnung {
 
-    private static final LocalDate STICHTAG = LocalDate.of(2023, Month.JANUARY, 1);
+    private static final LocalDate STICHTAG = LocalDate.of(2024, Month.JANUARY, 1);
 
     public int ermittleWert(LocalDate heute) {
 
