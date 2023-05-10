@@ -9,8 +9,8 @@ import jakarta.inject.Inject;
 
 public class NeuesKundenkontoAnlegenUseCase {
 
-    private ZaehlerRepository zaehlerRepository;
-    private KundeRepository kundeRepository;
+    private final ZaehlerRepository zaehlerRepository;
+    private final KundeRepository kundeRepository;
 
     @Inject
     public NeuesKundenkontoAnlegenUseCase(ZaehlerRepository zaehlerRepository, KundeRepository kundeRepository) {
