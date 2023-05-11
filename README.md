@@ -12,6 +12,7 @@ Die Refactoring-Schritte des ersten Beispiels kann man am Anfang der Git-Histori
 
 ## Vorträge & Folien
 
+- [JAX 2023](https://jax.de/software-architecture/einfach-gut-testbar-grundlagen-von-codedesign-und-architektur-fuer-gute-testbarkeit/), 11.05.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JAX-2023.pdf))
 - [JavaLand 2023](https://shop.doag.org/events/javaland/2023/agenda/#eventDay.1679353200), 21.03.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JavaLand-2023.pdf))
 - [Java User Group Darmstadt](https://www.jug-da.de/2023/01/Einfach-gut-testbar/), 12.01.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JUGDA-2023.pdf), [Video](https://www.youtube.com/watch?v=J0ZEKyJeXfk))
 - [W-JAX 2022](https://jax.de/software-architecture/einfach-gut-testbar-grundlagen-von-codedesign-und-architektur-fuer-gute-testbarkeit/), 09.11.2022 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-WJAX-2022.pdf))
