@@ -16,6 +16,27 @@ import static org.mockito.Mockito.verify;
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class BerechnungServiceTest {
 
+    @Test
+    void ermittleWert_liefert_positiven_Wert() {
+
+        // Given
+
+        Berechnung berechnung = new Berechnung();
+        BerechnungService berechnungService = new BerechnungService(berechnung);
+
+        // When
+
+        int wert = berechnungService.ermittleWert();
+
+        // Then
+
+        assertThat(wert).isGreaterThan(0);
+    }
+
+    /*
+     * oder mit Mocking:
+     */
+
     @Mock
     Berechnung berechnung;
 
