@@ -16,7 +16,7 @@ public class FakeKundeRepository implements KundeRepository {
         fakeDb.put(kunde.getEmail(), kunde);
     }
 
-    public Map<Email, Kunde> getFakeDb() {
+    Map<Email, Kunde> getFakeDb() {
         return fakeDb;
     }
 }
