@@ -15,12 +15,12 @@ public class OnionArchitekturTest {
     void Onion_Architektur_wird_beachtet(JavaClasses analyzedClasses) {
 
         ArchRule rule = onionArchitecture()
-                .domainModels("..domain.model")
-                .domainServices("..domain.service")
-                .applicationServices("..application")
-                .adapter("REST-API", "..adapter.api")
-                .adapter("Oracle-DB", "..adapter.datenbank")
-                .adapter("SAP-Nummernkreis", "..adapter.zaehler");
+                .domainModels("..domain.model..")
+                .domainServices("..domain.service..")
+                .applicationServices("..application..")
+                .adapter("REST-API", "..adapter.api..")
+                .adapter("Oracle-DB", "..adapter.datenbank..")
+                .adapter("SAP-Nummernkreis", "..adapter.zaehler..");
 
         rule.check(analyzedClasses);
     }
