@@ -1,6 +1,7 @@
 # Einfach gut testbar
 
-Der Code in diesem Repository ist die Grundlage für die Live-Coding-Session "Einfach gut testbar".
+Der Code in diesem Repository ist die Grundlage für die Live-Coding-Session "Einfach gut testbar" bzw.
+"Bessere Testbarkeit".
 
 Die Session ist für Einsteiger konzipiert, d.h. es geht hierbei um die Grundlagen von Code-Design-Patterns und
 Architekturstilen, die gute Testbarkeit ermöglichen bzw. unterstützen. Fortgeschrittene Themen wie Details zu
@@ -12,6 +13,7 @@ Die Refactoring-Schritte des ersten Beispiels kann man am Anfang der Git-Histori
 
 ## Vorträge & Folien
 
+- [OOP Summer 2023](https://www.oop-konferenz.de/oop-2023-muenchen/programm/konferenzprogramm), 05.07.2023 ([PDF](https://thomas-much.de/presentations/TestbarkeitCodeDesignArchitektur-OOP-Summer-2023.pdf))
 - [JAX 2023 Follow-Up](https://entwickler.de/jax-23-das-follow-up/), 06.06.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JAX-2023-Followup.pdf))
 - [JAX 2023](https://jax.de/software-architecture/einfach-gut-testbar-grundlagen-von-codedesign-und-architektur-fuer-gute-testbarkeit/), 11.05.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JAX-2023.pdf))
 - [JavaLand 2023](https://shop.doag.org/events/javaland/2023/agenda/#eventDay.1679353200), 21.03.2023 ([PDF](https://thomas-much.de/presentations/EinfachGutTestbar-JavaLand-2023.pdf))
